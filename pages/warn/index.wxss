@@ -1,0 +1,93 @@
+.content {
+	width: 100%;
+	background-color: #f2f2f2;
+}
+.title {
+	/*border: 1px solid red;*/
+	font-size: 28rpx;
+	padding:30rpx 50rpx;
+	background-color: #f2f2f2;
+}
+.choose{
+	background-color: #fff;
+}
+.choose .choose-grids {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 50rpx;
+	/*border: 1px solid green;*/
+}
+.choose .choose-grids .grid {
+	width: 45%;
+	height: 100rpx;
+	line-height: 100rpx;
+	text-align: center;
+	margin-top: 36rpx;
+	border: 2px solid #b9dd08;
+	border-radius: 6px;
+}
+.choose .choose-grids .grid:first-child,
+.choose .choose-grids .grid:nth-of-type(2) {
+	margin-top: 0rpx;
+}
+.action {
+	background-color: #fff;
+}
+.action .action-photo {
+	margin-top: 30rpx;
+	padding:30rpx 50rpx;
+}
+.action .action-photo image {
+	position: relative;
+	width: 120rpx;
+	height: 120rpx;
+	margin-left: 25rpx;
+	margin-bottom: 25rpx;
+	padding: 6rpx;
+	overflow: visible;
+	border: 1px dotted #b9dd08;
+	vertical-align: top;
+}
+.action .action-photo image icon {
+	position: absolute;
+	top: -20rpx;
+	right: -20rpx;
+}
+/*文本默认是与图片的下边对齐，vertical-align: top;可以改变文本与图片的对齐方式*/
+.action .action-photo .add {
+	display: inline-block;
+	border: 1px dotted #b9dd08;
+	color: #ccc;
+	width: 120rpx;
+	height: 120rpx;
+	line-height: 120rpx;
+	text-align: center;
+	/*font-size: 26rpx;*/
+	padding: 6rpx;
+	margin-left: 25rpx;
+	margin-bottom: 25rpx;
+}
+.action-input {
+	margin-top: 30rpx;
+	padding-left: 50rpx;
+	background-color: #fff;
+}
+.action-input input {
+	width: 90%;
+	padding-top: 38rpx;
+	padding-bottom: 36rpx;
+	font-size: 34rpx;
+}
+.action-input input:first-child {
+	border-bottom: 1px solid #ccc;
+}
+.action-submit {
+	margin-top: 30rpx;
+}
+.action-submit button {
+	color: #666;
+	font-size: 40rpx;
+	width: 90%;
+	background-color: #f2f2f2;
+}

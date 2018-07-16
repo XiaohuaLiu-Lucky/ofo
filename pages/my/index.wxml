@@ -1,0 +1,24 @@
+<view class="container">
+	<view class="content">
+		<!-- 用户信息：分两种情况，登录和未登录状态，条件渲染 -->
+		<view class="userInfo">
+			<!-- 头像和昵称 -->
+			<block wx:if="{{userInfo.userUrl !== ''}}">
+				<view class="img">
+					<image src="{{userInfo.userUrl}}"></image>
+				</view>
+			</block>
+			<view class="user-name">{{userInfo.nickName}}</view>
+		</view>
+		<!-- 点击我的钱包,跳转到另一个页面-->
+		<block wx:if="{{userInfo.userUrl !== ''}}">
+			<view class="my-wallet" bindtap="moveToWallet">
+				<text>我的钱包</text>
+				<text> > </text>
+			</view>
+		</block>
+		<!-- 登录按钮：登录，退出登录。判断是否登录了，另一个就是存储登录信息，登录过了就自动登录。-->
+		<button type="{{btnType}}" class="btn-login" bindtap="login">{{actionText}}</button>
+		
+	</view>
+</view>

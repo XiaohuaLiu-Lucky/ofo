@@ -1,0 +1,43 @@
+.content {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-color: #f2f2f2;
+	font-size: 32rpx;
+}
+.content .userInfo {
+	padding-top:60rpx;
+	text-align: center;
+	background-color: #fff;
+}
+.userInfo .img {
+	width: 120rpx;
+	height: 120rpx;
+	margin: 0px auto;
+	border-radius: 50%;
+	box-shadow: 0 0 20rpx rgba(0,0,0,.2);
+	overflow: hidden;
+}
+.userInfo .img image {
+	width: 100%;
+	height: 100%;
+}
+.content .user-name {
+	margin-top: 60rpx;
+	padding-bottom: 36rpx;
+}
+.my-wallet {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40rpx;
+	padding: 30rpx 40rpx;
+	background-color: #fff;
+}
+.btn-login {
+	position: absolute;
+	bottom: 60rpx;
+	left: 5%;
+	width: 90%;
+	font-size: 36rpx;
+
+} 

@@ -1,0 +1,25 @@
+.content {
+	width: 100%;
+	height: 100vh;
+	background-color: #f2f2f2;
+	font-size: 32rpx;
+}
+.title {
+	padding: 40rpx 0 40rpx 50rpx;
+}
+.input {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+input {
+	padding: 20rpx;
+	margin: 10rpx auto 30rpx;
+	background-color: #fff;
+}
+.btn-charge {
+	width: 90%;
+	font-size: 36 rpx;
+	font-weight: bold;
+	background-color: #b9dd08;
+}

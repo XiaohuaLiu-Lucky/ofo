@@ -1,0 +1,33 @@
+.content {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 34rpx;
+	color: #333;
+}
+.password-title,
+.tips {
+	flex: 1;
+	padding: 60rpx 0;
+}
+.password-content {
+	flex: 8;
+	font-size: 150rpx;
+	font-weight: bold;
+}
+.tips {
+	font-size: 32rpx;
+	margin-bottom: 30rpx;
+}
+.tips .tips-action {
+	margin-top: 20rpx;
+}
+.tips .time {
+	font-weight: bold;
+}
+.tips .tips-href {
+	color: #b9dd08;
+}

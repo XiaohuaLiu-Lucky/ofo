@@ -1,0 +1,28 @@
+<view class="container">
+	<view class="content">
+		<!-- 我余额 -->
+		<view class="overage">
+			<text class="overage-header">我的余额（元）</text>
+			<text class="overage-content">{{money}}</text>
+			<text class="overage-desc">余额说明</text>
+		</view>
+		<!-- 充值按钮 -->
+		<button class="btn-chanrge" bindtap="moveToCharge">充值</button>
+		<!-- 用车券，押金 -->
+		<view class="my-ticket tapbar">
+			<text>我的用车券</text>
+			<text>{{ticket}}张></text>
+		</view>
+		<view class="my-deposit tapbar">
+			<text>我的押金</text>
+			<text>
+				<text class="color">99元，押金退款</text>>		
+			</text>
+		</view>
+		<!-- 关于o'fo -->
+		<view class="about tapbar">
+			<text>关于ofo</text>
+			<text>></text>
+		</view>
+	</view>
+</view>

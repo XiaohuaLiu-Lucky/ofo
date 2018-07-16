@@ -1,0 +1,52 @@
+.content {
+	width: 100%;
+	height: 100vh;
+	background-color: #f2f2f2;
+	font-size: 34rpx;
+}
+.overage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+}
+.overage-header {
+	padding-top: 50rpx;
+}
+.overage-content {
+	padding: 60rpx 0;
+	font-size: 100rpx;
+	font-weight: bold;
+}
+.overage-desc {
+	border: 2px solid #777;
+	border-radius: 60rpx;
+	padding: 5rpx 20rpx;
+	margin-bottom: 40rpx;
+}
+.btn-chanrge{
+	margin: 40rpx auto 30rpx;
+	width: 90%;
+	font-size: 38rpx;
+	font-weight: bold;
+	background-color: #b9dd08;
+	color: #333;
+}
+.tapbar {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 600;
+	font-size: 36rpx;
+	background-color: #fff;
+	padding: 40rpx 30rpx;
+	/*border-bottom: 1px solid #ccc;*/
+}
+.my-deposit {
+	margin-top: 2rpx;
+}
+.color {
+	color: #b9dd08;
+}
+.about {
+	margin-top: 30rpx;
+}
